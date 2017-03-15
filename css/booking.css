@@ -1,0 +1,43 @@
+  
+html{
+  z-index: -999;
+  background: #f2f2f2 url(../img/bg1.png) repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  font: 25px/1.5 'Raleway', Helvetica, Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  }
+  .container a:link, .container a:visited{
+    opacity: 1;
+    color: #333;
+    padding: 8px 15px;
+    margin-top: 30px;
+    display: block;
+    position: relative;
+  }
+  .container a:hover{
+    color: #b3d4fc;
+  }
+
+  .container h1{
+    font-size: 2em;
+    margin-top: 0;
+    font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 700;}
+
+.button{
+  text-decoration: none;
+  color: #333;
+  border: 2px #333 solid;
+  padding: 8px 15px;
+  margin-top: 30px;
+  display: inline-block !important;
+  position: relative; }
+.button:hover{
+  color: #b3d4fc;
+  border: 2px #b3d4fc solid;
+}

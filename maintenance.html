@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<?php include 'mailer.php'; ?>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>UNDER MAINTENANCE</title>
+       <style>
+       html{
+       	background: #f2f2f2 url('imgs/bkg2.png');
+       	font-family: "Helvetica Neue Light", "Helvetica Neue", Arial, sans-serif;
+       }
+       body{
+       	text-align: center;
+       	padding-top: 20px;
+       }
+       h3{
+       	display: inline-block;
+       	max-width: 45%;
+       }
+       </style>
+    </head>
+    <body>
+    	<h1>
+    		SITE UNDER MAINTENANCE <?php echo $name ?>!
+    	</h1>
+    	<h3>
+    	  Come back soon! The site is currently under maintenance.
+    	</h3>
+    </body>
+</html>
